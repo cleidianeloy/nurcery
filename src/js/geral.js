@@ -1,4 +1,6 @@
+
 $('.slide-card').children('div').each(function(index){
+
     $(this).on('click swipe', function(){
         if($(this).attr('class') === 'invisible'){
                 $(this).siblings('div').hide();
@@ -21,7 +23,7 @@ $('.slide-card').children('div').each(function(index){
 
 
         }else{
-            $(this).on('swiperight', function(){
+            $(this).on('swipeleft', function(){
                 if($(this).parent().children().last().attr('class') === 'visible'){
                     $(this).parent().css('justify-content','flex-start');
                 }else{
@@ -44,7 +46,7 @@ $('.slide-card').children('div').each(function(index){
                 }
             })
 
-            $(this).on('swipeleft', function(){
+            $(this).on('swiperight', function(){
                 if($(this).parent().children().first().attr('class') === 'visible'){
                     $(this).parent().css('justify-content','flex-end');
                 }else{
