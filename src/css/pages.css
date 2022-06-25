@@ -1,0 +1,689 @@
+
+#home{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+#home nav {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    margin-top: 4vh;
+}
+#home a {
+    color: gray;
+    margin-right: 4vw;
+    font-size: 1.2vw;
+    text-decoration: none;
+}
+#home p {
+    color: gray;
+    width: 60%;
+    font-size: 1vw;
+}
+#home a.gradient {
+    color: white;
+    width: 29%;
+    height: 100%;
+    text-align: center;
+    padding: 2% 0%;
+    border-radius: 45px;
+    font-size: 1.1vw;
+    font-family: 'Poppins-Light';
+}
+#home nav li{
+    display: inline;
+  
+}
+#home .left{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#home .right{
+    z-index: -1;
+    display: flex;
+    align-self: flex-end;
+    border-radius: 100% 0 0 9%;
+}
+#home .right img{
+    align-self: start;
+    justify-self: start;
+    width: 78%;
+    
+}
+#home .wrapper{
+    width: 70%;
+    height: auto;
+}
+#home .wrapper img{
+    width: 100%;
+}
+#about-us{
+    background-color: #2C469E;
+    color: white;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    align-items: center;
+}
+#about-us .left img{
+    width: 70%;
+    margin: auto;
+    display: block;
+}
+#about-us h1{
+    color:white;
+}
+#about-us p {
+    width: 80%;
+    font-size: 1.3vw;
+}
+#the-hotel {
+    background-color: #2C469E;
+    display: flex;
+    align-items: center;
+}
+#the-hotel .aux{
+    height: 100%;
+    width: 113%;
+    left: -116px;
+    position: absolute;
+    background-color: white;
+    border-radius: 50% 50% 0 0;
+    z-index: 0;
+}
+
+#the-hotel .cat-background {
+    z-index: 1;
+    height: 40vw;
+    width: 43vw;
+    border-radius: 50%;
+    position: relative;
+    right: -7vw;
+}
+#the-hotel .cat-background img {
+    margin: auto;
+    display: block;
+    width: 50vw;
+    position: relative;
+    bottom: 15vh;
+    left: -5vw;
+}
+#the-hotel .text{
+    z-index: 1;
+    padding-left: 15vw;
+    align-self: center;
+    justify-self: center;
+    width: 60%;
+}
+#the-hotel p{
+    color: gray;
+    font-size: 1.3vw;
+}
+#care{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#care .cards {
+    display: flex;
+    width: 80vw;
+    height: 70vh;
+    margin: 5vh auto;
+    column-gap: 7%;
+    flex-wrap: wrap;
+    
+}
+#care h1{
+    padding-left: 10vw;
+}
+#care .cards .card {
+    width: 15vw;
+    height: unset;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    min-width: 200px;
+    background-color: lightgray;
+    text-align: center;
+    border-radius: 20px;
+    justify-content: flex-start;
+    margin-bottom: 2vh;
+}
+#care .cards .card hr{
+    width: 20%;
+    background-color: #3D61B1;
+    height: 1px;
+}
+.card p {
+    width: 80%;
+    text-align: center;
+    font-size: 1.2vw;
+}
+#care .cards .card h1, #care .cards .card p{
+    width: 80%;
+    text-align: center;
+}
+#care .cards .card svg {
+    width: 37%;
+    margin-top: 14%;
+}
+#guests h1 span {
+    font-family: 'Poppins-Light';
+    color: gray;
+    font-weight: normal;
+}
+#guests h1 {
+    text-align: center;
+}
+#guests .visible p{
+    font-size: 1.2vw;
+}
+#guests .invisible p{
+    font-size: 0.8vw;
+}
+#guests .slide-card {
+    width: 80vw;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 5vh auto;
+    column-gap: 6%;
+    align-items: center;
+}
+
+#guests .slide-card .visible {
+    width: 27vw;
+    height: 22vw;
+    background-color: blue;
+    padding: 3%;
+    border-radius: 26px;
+}
+
+#guests .slide-card .invisible {
+    width: 15vw;
+    height: auto;
+    font-size: 0.9vw;
+    background-color: lightblue;
+    padding: 3%;
+    opacity: 0.4;
+    border-radius: 26px;
+}
+#guests button.select {
+    background-color: #3D61B1;
+}
+.navButtons {
+    display: flex;
+    justify-content: center;
+    column-gap: 1%;
+}
+.navButtons button{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #3D61B1;
+    background-color: transparent;
+}
+#contact-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 130vh;
+}
+#contact-us .form {
+    padding: 4%;
+    margin-top: 10vh;
+    width: 55vw;
+    box-shadow: -1px 4px 8px 0px rgb(0 0 0 / 50%);
+    border-radius: 18px;
+    z-index: 1;
+    background-color: white;
+}
+#contact-us .form h1,#contact-us .form p{
+    text-align: center;
+} 
+#contact-us .form:after {
+    content: ' ';
+    position: relative;
+    bottom: 112.4%;
+    left: 66%;
+    background-image: url(../../img/cat-contact.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 17%;
+}
+#contact-us .informations > div {
+    z-index: 1;
+    margin: 2vw;
+    display: inline-block;
+    text-align: center;
+}
+#contact-us .informations > .aux {
+    align-self: center;
+    justify-self: center;
+    display: block !important;
+    margin: 0 !important;
+    width: 123vw;
+    height: 100vh;
+    position: absolute;
+    background-color: blue;
+    z-index: 0 !important;
+    border-radius: 50% 50% 0 0%;
+}
+#contact-us .informations {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+#contact-us form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5%;
+    
+}
+
+#contact-us form input {
+    height: 7vh;
+    width: 100%;
+    font-family: 'Poppins-Light';
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 0px 20px;
+}
+#contact-us form  input[type="email"] {
+    grid-column: 1/3;
+}
+#contact-us form textarea {
+    grid-column: 1/3;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 3%;
+}
+#contact-us form button{
+    justify-self: center;
+    grid-column: 1/3;
+}
+#contact-us form label{
+    position: absolute;
+    color: transparent;
+}
+
+#contact-us form label.name:after {
+    content: " Your name * ";
+    position: relative;
+    top: -10px;
+    right: 22%;
+    background-color: white;
+    padding: 0 8px;
+    height: 0;
+    font-family: 'Poppins-Light';
+    font-size: 1vw;
+    color: black;
+}
+label.telephone:after {
+    content: "Phone Number";
+    position: relative;
+    top: -8px;
+    left: 25vw;
+    background-color: white;
+    padding: 0 8px;
+    height: 0;
+    font-family: 'Poppins-Light';
+    font-size: 1vw;
+    color: black;
+}
+label.email:after {
+    content: "Your best e-mail *";
+    position: relative;
+    top: 8vh;
+    right: 28%;
+    background-color: white;
+    padding: 0 8px;
+    height: 0;
+    font-family: 'Poppins-Light';
+    font-size: 1vw;
+    color: black;
+}
+label.textarea:after {
+    content: "How can we help you?";
+    position: relative;
+    top: 17vh;
+    right: 34%;
+    background-color: white;
+    padding: 0 8px;
+    height: 0;
+    font-family: 'Poppins-Light';
+    font-size: 1vw;
+    color: black;
+}
+#contact-us form button{
+    width: 10vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    border: 0;
+    border-radius: 10px;
+    font-family: 'Poppins-Regular';
+    color: white;
+    font-weight: bold;
+}
+@media only screen and (max-width:425px){
+    #home{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 8vh;
+    }
+    #home nav {
+        display: none;
+    }
+    #home .right {
+        z-index: -1;
+        display: flex;
+        align-self: flex-end;
+        justify-self: flex-end;
+        border-radius: 0 0 100% 100%;
+        position: absolute;
+        top: 0;
+        left: -11vw;
+        height: 65vh;
+        justify-content: center;
+        width: 121vw;
+    }
+    #home .right.gradient > img {
+        position: relative;
+        top: 43vh;
+        width: 100vw;
+        align-self: flex-end;
+    }
+    #home a.gradient{
+        color: #3D61B1;
+        background: white;
+        font-size: 0.9rem;
+        align-self: flex-start;
+        margin-left: 18vw;
+        font-family: 'Poppins-Black';
+    }
+    #home p{
+        color: white;
+        font-size: 0.8rem;
+    }
+    #about-us{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+    #about-us .right{
+        width: 84vw;
+    }
+    #about-us .right h1{
+        font-size: 2rem;
+    }
+    #about-us .right p {
+        width: 100%;
+        font-size: 0.8rem;
+    }
+    #the-hotel {
+        background-color: #2C469E;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        height: 99.7vh;
+    }
+    #the-hotel .aux {
+        height: 100vh;
+        width: 100vw;
+        left: 0;
+        position: absolute;
+        background-color: white;
+        border-radius: 50% 50% 0 0;
+        z-index: 0;
+    }
+    #the-hotel .text {
+        z-index: 1;
+        padding-left: 0;
+        align-self: center;
+        justify-self: center;
+        width: 81%;
+        margin-top: 3vh;
+    }
+    #the-hotel .text h1{
+        font-size: 2rem;
+    }
+    #the-hotel .text p{
+        font-size: 0.8rem;
+    }
+    #the-hotel .cat-background {
+        z-index: 1;
+        height: 90vw;
+        width: 90vw;
+        border-radius: 50%;
+        position: relative;
+        right: 0vw;
+    }
+    #the-hotel .cat-background img {
+        margin: auto;
+        display: block;
+        width: 111vw;
+        position: relative;
+        bottom: 7vh;
+        left: -8vw;
+    }
+    #the-hotel .aux {
+        height: 100vh;
+        width: 100vw;
+        left: 0;
+        position: absolute;
+        background-color: white;
+        border-radius: 50% 50% 0 0;
+        z-index: 0;
+    }
+    #care h1{
+        margin-top: 22vh;
+        font-size: 2rem;
+    }
+    #care {
+        height: calc(68vh * 4 + 20vh);
+        justify-content: flex-start;
+    }
+    #care .cards {
+        display: flex;
+        width: 90vw;
+        height: 70vh;
+        margin: 5vh auto;
+        column-gap: 7%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #care .cards .card {
+        width: 3vw;
+        height: 61vh;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        min-width: 200px;
+        background-color: lightgray;
+        text-align: center;
+        border-radius: 20px;
+        justify-content: flex-start;
+        margin-bottom: 2vh;
+    }
+    #care .cards .card p {
+        font-size: 0.8rem;
+    }
+    #care .cards .card h1{
+        font-size: 2rem;
+    }
+    #care .cards .card h3 {
+        font-size: 1.1rem;
+    }
+    #guests{
+        height: auto;
+    }
+    #guests h1 {
+            text-align: center;
+            font-size: 1.3rem;
+    }
+    
+    #guests .slide-card {
+        width: 100vw;
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+        margin: 5vh auto;
+        column-gap: 2%;
+        align-items: center;
+    }
+    
+    #guests .slide-card .visible {
+        width: 100vw;
+        height: auto;
+        background-color: darkblue;
+        padding: 5%;
+        border-radius: 9px;
+        color: white;
+    }
+    #guests .slide-card .invisible {
+        width: 9%;
+        height: 41vw;
+        font-size: 0.9vw;
+        background-color: lightblue;
+        padding: 3%;
+        opacity: 0.4;
+        border-radius: 10px;
+    }
+    #guests .slide-card .invisible *{
+        display: none;
+    }
+    #guests .visible p {
+        font-size: 0.8rem;
+    }
+    #contact-us h1{
+        font-size: 2rem;
+    }
+    #contact-us form{
+        display: block;
+    }
+    #contact-us .form {
+        padding: 4%;
+        margin-top: 20vh;
+        width: 80vw;
+        box-shadow: -1px 4px 8px 0px rgb(0 0 0 / 50%);
+        border-radius: 18px;
+        z-index: 1;
+        background-color: white;
+       
+    }
+    #contact-us form input {
+        height: 7vh;
+        width: 100%;
+        font-family: 'Poppins-Light';
+        border-radius: 10px;
+        border: 1px solid black;
+        padding: 0px 20px;
+        margin-top: 3vh;
+    }
+    #contact-us .form:after {
+        content: ' ';
+        position: relative;
+        bottom: 97%;
+        left: 19%;
+        background-image: url(../../img/cat-contact.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding: 25vw;
+    }
+    #contact-us form textarea {
+        grid-column: 1/3;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 0;
+        margin-top: 2vh;
+        width: 100%;
+        height: 20% !important;
+    }
+    #contact-us form label.name:after {
+        content: " Your name * ";
+        position: relative;
+        top: 2vh;
+        right: 32%;
+        background-color: white;
+        padding: 0 8px;
+        height: 0;
+        font-family: 'Poppins-Light';
+        font-size: 0.8rem;
+        color: black;
+    }
+    label.telephone:after {
+        content: "Phone Number";
+        position: relative;
+        top: 2vh;
+        background-color: white;
+        padding: 0 8px;
+        height: 0;
+        font-family: 'Poppins-Light';
+        font-size: 0.8rem;
+        color: black;
+        left: -21vw;
+    }
+    label.email:after {
+        content: "Your best e-mail *";
+        position: relative;
+        top: 2vh;
+        right: 38%;
+        background-color: white;
+        padding: 0 8px;
+        height: 0;
+        font-family: 'Poppins-Light';
+        font-size: 0.8rem;
+        color: black;
+    }
+    label.textarea:after {
+        content: "How can we help you?";
+        position: relative;
+        top: 1vh;
+        right: 43%;
+        background-color: white;
+        padding: 0 8px;
+        height: 0;
+        font-family: 'Poppins-Light';
+        font-size: 0.8rem;
+        color: black;
+    }
+    #contact-us form button {
+        width: 40vw;
+        height: 13vw;
+        font-size: 1rem;
+        border: 0;
+        border-radius: 10px;
+        font-family: 'Poppins-Regular';
+        color: white;
+        font-weight: bold;
+        margin: 2vh auto;
+        display: block;
+    }
+    #contact-us .informations {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        color: white;
+        align-items: center;
+        flex-direction: column;
+    }
+    #contact-us .informations > div * {
+        display: inline;
+    }
+    #contact-us .informations {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        color: white;
+        flex-direction: column;
+    }
+}

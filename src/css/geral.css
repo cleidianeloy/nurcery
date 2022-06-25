@@ -1,0 +1,29 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body{
+    background-color: white;
+}
+section{
+    width: 100vw;
+    height: 100vh;
+}
+.gradient{
+    background: linear-gradient(80deg, #3D61B1, #6481C1);
+    color: white;
+}
+h1{
+    font-size: 3vw;
+    margin: 0;
+    color: #3D61B1;
+}
+
+
+@media only screen and (max-width:425px){
+    section{
+        max-width: 100vw;
+        overflow: hidden;
+    }
+}
