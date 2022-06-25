@@ -78,3 +78,8 @@ $('.slide-card').children('div').each(function(index){
     }
     $('.navButtons').append(button);
 })
+
+$('a').click(function(){
+    window.location.href = $(this).attr("href");
+});
+
