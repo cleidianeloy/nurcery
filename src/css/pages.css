@@ -542,15 +542,16 @@ label.textarea:after {
     }
     
     #guests .slide-card .visible {
-        width: 100vw;
+        width: 62vw;
         height: auto;
         background-color: darkblue;
         padding: 5%;
         border-radius: 9px;
         color: white;
+        min-height: 80vw;
     }
     #guests .slide-card .invisible {
-        width: 9%;
+        width: 6%;
         height: 41vw;
         font-size: 0.9vw;
         background-color: lightblue;
