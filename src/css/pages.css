@@ -66,10 +66,8 @@
     grid-template-columns: 1.5fr 1fr;
     align-items: center;
 }
-#about-us .left img{
+#about-us .left .wrapper svg{
     width: 70%;
-    margin: auto;
-    display: block;
 }
 #about-us h1{
     color:white;
@@ -247,7 +245,7 @@
 #contact-us .form:after {
     content: ' ';
     position: relative;
-    bottom: 112.4%;
+    bottom: 116.4%;
     left: 66%;
     background-image: url(../../img/cat-contact.jpg);
     background-size: 100%;
@@ -582,7 +580,7 @@ label.textarea:after {
        
     }
     #contact-us form input {
-        height: 7vh;
+        height: 10%;
         width: 100%;
         font-family: 'Poppins-Light';
         border-radius: 10px;
@@ -593,18 +591,18 @@ label.textarea:after {
     #contact-us .form:after {
         content: ' ';
         position: relative;
-        bottom: 97%;
-        left: 19%;
+        bottom: calc(100% + 6vh);
+        left: 13%;
         background-image: url(../../img/cat-contact.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
-        padding: 25vw;
+        padding: 35%;
     }
     #contact-us form textarea {
         grid-column: 1/3;
         border: 1px solid black;
         border-radius: 10px;
-        padding: 0;
+        padding: 5%;
         margin-top: 2vh;
         width: 100%;
         height: 20% !important;
