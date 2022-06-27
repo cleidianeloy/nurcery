@@ -307,15 +307,15 @@
                 Leave your message and we will do our best to serve you!
             </p>
             <form action="">
-                <label  class="name">Your name</label>
+                <label  class="name" required>Your name</label>
                 <input type="text">
                 <label  class="telephone">Phone Number</label>
                 <input type="tel">
-                <label  class="email">Your best e-mail</label>
+                <label  class="email" required>Your best e-mail</label>
                 <input type="email">
                 <label  class="textarea">How can we help you?</label>
                 <textarea name="" id="" cols="30" rows="10"></textarea>
-                <button type="submit" class="gradient">Send!</button>
+                <button type="submit" class="gradient" onclick="sendEmail(this.form)">Send!</button>
             </form>
         </div>
         <div class="informations">
@@ -356,4 +356,17 @@
 
     </body> 
     <script src="src/js/geral.js"></script>
+    <script>
+        // function sendEmail(form){
+        //     var form = $(form);
+        //     var destine = "cleidianeloy@hotmail.com"
+        //     var subject = "Hi! I saw your website"
+        //     var body = "I am sending you this by the nurcery website \n"
+        //     var contactClient = $(form).children('div').children('input').attr("type", "email").val();
+        //     body += form.children('textarea').val();
+        //     body += "\ncontact with me: " + contactClient;
+        
+        //     window.open('mailto:'+ destine +'?subject='+ subject +'&body='+ body);
+        // }
+    </script>
 </html>

@@ -592,41 +592,41 @@ label.textarea:after {
     }
     #contact-us .form {
         padding: 4%;
-        margin-top: 20vh;
+        margin-top: 10rem;
         width: 80vw;
+        height: 32rem;
         box-shadow: -1px 4px 8px 0px rgb(0 0 0 / 50%);
         border-radius: 18px;
         z-index: 1;
         background-color: white;
-       
     }
     #contact-us form input {
-        height: 10%;
+        height: 3.2rem;
         width: 100%;
         font-family: 'Poppins-Light';
         border-radius: 10px;
         border: 1px solid black;
-        padding: 0px 20px;
-        margin-top: 3vh;
+        padding: 0px 0.5rem;
+        margin-top: 1rem;
     }
     #contact-us .form:after {
         content: ' ';
         position: relative;
-        bottom: calc(100% + 6vh);
+        bottom: 35rem;
         left: 13%;
         background-image: url(../../img/cat-contact.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
-        padding: 35%;
+        padding: 7rem;
     }
     #contact-us form textarea {
         grid-column: 1/3;
         border: 1px solid black;
         border-radius: 10px;
-        padding: 5%;
-        margin-top: 2vh;
+        padding: 0.7rem;
+        margin-top: 1rem;
         width: 100%;
-        height: 20% !important;
+        height: 6rem !important;
     }
     #contact-us form label.name:after {
         content: " Your name * ";
@@ -677,15 +677,15 @@ label.textarea:after {
         color: black;
     }
     #contact-us form button {
-        width: 40vw;
-        height: 13vw;
+        width: 8rem;
+        height: 3rem;
         font-size: 1rem;
         border: 0;
         border-radius: 10px;
         font-family: 'Poppins-Regular';
         color: white;
         font-weight: bold;
-        margin: 2vh auto;
+        margin: 1rem auto;
         display: block;
     }
     #contact-us .informations {
