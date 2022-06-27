@@ -56,8 +56,8 @@
     width: 70%;
     height: auto;
 }
-#home .wrapper img{
-    width: 100%;
+#home .wrapper svg .color-change{
+    fill: #2C469E;
 }
 #about-us{
     background-color: #2C469E;
@@ -118,10 +118,11 @@
     color: gray;
     font-size: 1.3vw;
 }
-#care{
+#care {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 13vh 0;
 }
 #care .cards {
     display: flex;
@@ -164,6 +165,7 @@
     width: 80%;
     text-align: center;
 }
+
 #care .cards .card svg {
     width: 37%;
     margin-top: 14%;
@@ -190,12 +192,16 @@
     margin: 5vh auto;
     column-gap: 6%;
     align-items: center;
+    color: white;
+}
+#guests .slide-card > * {
+    z-index: 10;
 }
 
 #guests .slide-card .visible {
     width: 27vw;
     height: 22vw;
-    background-color: blue;
+    background-color: #3D61B1;
     padding: 3%;
     border-radius: 26px;
 }
@@ -204,10 +210,15 @@
     width: 15vw;
     height: auto;
     font-size: 0.9vw;
-    background-color: lightblue;
+    background-color: #3D61B1;
     padding: 3%;
     opacity: 0.4;
     border-radius: 26px;
+}
+#guests .slide-card .title {
+    display: flex;
+    gap: 5%;
+    align-items: center;
 }
 #guests button.select {
     background-color: #3D61B1;
@@ -321,6 +332,10 @@
     font-size: 1vw;
     color: black;
 }
+#contact-us div#icons svg {
+    width: 2.2vw;
+    margin: 0.2vw;
+}
 label.telephone:after {
     content: "Phone Number";
     position: relative;
@@ -389,6 +404,9 @@ label.textarea:after {
         height: 65vh;
         justify-content: center;
         width: 121vw;
+    }
+    #home .wrapper svg .color-change{
+        fill: white;
     }
     #home .right.gradient > img {
         position: relative;
@@ -563,6 +581,9 @@ label.textarea:after {
     #guests .visible p {
         font-size: 0.8rem;
     }
+    #contact-us {
+        height: 140vh;
+    }
     #contact-us h1{
         font-size: 2rem;
     }
@@ -684,5 +705,12 @@ label.textarea:after {
         justify-content: center;
         color: white;
         flex-direction: column;
+    }
+    #contact-us div#icons {
+        display: block;
+    }
+    #contact-us div#icons svg {
+        width: 10vw;
+        margin: 1.2vw;
     }
 }
