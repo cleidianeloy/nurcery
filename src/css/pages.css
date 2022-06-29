@@ -582,7 +582,7 @@ label.textarea:after {
         font-size: 0.8rem;
     }
     #contact-us {
-        height: 140vh;
+        height: auto;
     }
     #contact-us h1{
         font-size: 2rem;
@@ -631,8 +631,8 @@ label.textarea:after {
     #contact-us form label.name:after {
         content: " Your name * ";
         position: relative;
-        top: 2vh;
-        right: 32%;
+        top: 0.3rem;
+        right: 3.4rem;
         background-color: white;
         padding: 0 8px;
         height: 0;
@@ -643,20 +643,20 @@ label.textarea:after {
     label.telephone:after {
         content: "Phone Number";
         position: relative;
-        top: 2vh;
+        top: 0.5rem;
         background-color: white;
         padding: 0 8px;
         height: 0;
         font-family: 'Poppins-Light';
         font-size: 0.8rem;
         color: black;
-        left: -21vw;
+        left: -5rem;
     }
     label.email:after {
         content: "Your best e-mail *";
         position: relative;
-        top: 2vh;
-        right: 38%;
+        top: 0.4rem;
+        right: 5.6rem;
         background-color: white;
         padding: 0 8px;
         height: 0;
@@ -667,8 +667,8 @@ label.textarea:after {
     label.textarea:after {
         content: "How can we help you?";
         position: relative;
-        top: 1vh;
-        right: 43%;
+        top: 0.4rem;
+        right: 8.3rem;
         background-color: white;
         padding: 0 8px;
         height: 0;
