@@ -16,6 +16,7 @@ body > div{
 section{
     width: 100vw;
     height: 100vh;
+    container-type: inline-size;
 }
 .gradient{
     background: linear-gradient(80deg, #3D61B1, #6481C1);
