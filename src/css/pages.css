@@ -250,20 +250,17 @@
     border-radius: 18px;
     z-index: 1;
     background-color: white;
+    position:relative
+}
+#contact-us img{
+    position: absolute;
+    bottom: 100%;
+    left: 66%;
+    width: 16vw;
 }
 #contact-us .form h1,#contact-us .form p{
     text-align: center;
 } 
-#contact-us .form:after {
-    content: ' ';
-    position: relative;
-    bottom: 116.4%;
-    left: 66%;
-    background-image: url(../../img/cat-contact.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    padding: 17%;
-}
 #contact-us .informations > div {
     z-index: 1;
     margin: 2vw;
@@ -610,15 +607,12 @@ label.textarea:after {
         padding: 0px 0.5rem;
         margin-top: 1rem;
     }
-    #contact-us .form:after {
-        content: ' ';
-        position: relative;
-        bottom: 35rem;
-        left: 13%;
-        background-image: url(../../img/cat-contact.jpg);
-        background-size: 100%;
-        background-repeat: no-repeat;
-        padding: 7rem;
+    #contact-us img {
+        position: absolute;
+        bottom: 100%;
+        left: 10%;
+        right: 10%;
+        width: 80%;
     }
     #contact-us form textarea {
         grid-column: 1/3;
