@@ -387,10 +387,13 @@ label.textarea:after {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        margin-top: 8vh;
+       
     }
     #home nav {
         display: none;
+    }
+    #home .left{
+        margin-top: 8vh;
     }
     #home .right {
         z-index: -1;
